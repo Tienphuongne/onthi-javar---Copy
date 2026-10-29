@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="bg-blue-600 text-white shadow">
+      <div
+        class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between"
+      >
+        <strong>WEB2064 JSNC</strong>
+
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="index.html" class="hover:text-gray-200">Danh sách</a>
+          <a href="add.html" class="hover:text-gray-200">Thêm mới</a>
+          <a href="register.html" class="hover:text-gray-200">Đăng ký</a>
+        </div>
+        <div class="hidden md:flex items-center space-x-6"></div>
+      </div>
+    </nav>
+    <div class="max-w-6xl mx-auto mt-10 px-4 text-center">
+      <h1 class="text-2xl font-semibold mb-6">Cập nhật</h1>
+
+      <form id="form-edit" class="space-y-6">
+        <!-- Text input -->
+        <div>
+          <label for="title" class="block font-medium mb-1"> title </label>
+          <input
+            id="title"
+            type="text"
+            name="title"
+            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        <div>
+          <label for="company" class="block font-medium mb-1"> company </label>
+          <input
+            id="company"
+            type="text"
+            name="company"
+            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        <div>
+          <label for="location" class="block font-medium mb-1">
+            location
+          </label>
+          <input
+            id="location"
+            type="text"
+            name="location"
+            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        <div>
+          <label for="salary" class="block font-medium mb-1"> salary </label>
+          <input
+            id="salary"
+            type="text"
+            name="salary"
+            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+
+        <div>
+          <label for="employmentType" class="block font-medium mb-1">
+            employmentType
+          </label>
+
+          <select
+            id="employmentType"
+            name="employmentType"
+            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value="">Chọn loại hình</option>
+            <option value="Full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
+            <option value="Internship">Internship</option>
+          </select>
+        </div>
+        <div>
+          <label for="description" class="block font-medium mb-1">
+            description
+          </label>
+          <input
+            id="description"
+            type="text"
+            name="description"
+            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        <!-- Buttons -->
+        <button
+          type="submit"
+          class="px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+    <script src="edit.js"></script>
+  </body>
+</html>

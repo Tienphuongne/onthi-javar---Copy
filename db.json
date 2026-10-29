@@ -1,0 +1,41 @@
+{
+  "users": [],
+  "jobs": [
+    {
+      "title": "Frontend Developer",
+      "company": "FPT Software",
+      "location": "Hà Nội",
+      "salary": "15000000",
+      "employmentType": "Full-time",
+      "description": "Phát triển giao diện web.",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "Backend Developer",
+      "company": "CMC Global",
+      "location": "Hà Nội",
+      "salary": 18000000,
+      "employmentType": "Full-time",
+      "description": "Phát triển API bằng Node.js."
+    },
+    {
+      "id": "3",
+      "title": "UI/UX Designer",
+      "company": "VNG Corporation",
+      "location": "TP. Hồ Chí Minh",
+      "salary": 12000000,
+      "employmentType": "Part-time",
+      "description": "Thiết kế giao diện người dùng."
+    },
+    {
+      "title": "Intern React Developer",
+      "company": "Tech Company",
+      "location": "Intern React Developer",
+      "salary": "5000000",
+      "employmentType": "Internship",
+      "description": "Hỗ trợ phát triển ứng dụng.",
+      "id": "4"
+    }
+  ]
+}
